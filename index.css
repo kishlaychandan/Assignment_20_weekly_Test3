@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main css */
+
+.main{
+    color: white;
+    background-image: linear-gradient(to right,#000000 ,#e64c3c);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    /* width: 100vw; */
+    /* height: 5px; */
+}
+
+/* main-1 css */
+
+.main-1{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+.navbar{
+    color: white;
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+}
+.navbar >p{
+    padding-right: 20px;
+}
+.navbar >input{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    width: 30vw;
+    height: 3vh;
+}
+.navbar >span{
+    margin-left: 5px;
+}
+
+/* main-2 css */
+
+.main-2{
+    width: 100%;
+    /* height: 400px; */
+    height: 50vh;
+    background-image:url(https://static01.nyt.com/images/2021/03/30/multimedia/28xp-shoes-09/28xp-shoes-09-superJumbo.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    /* color: white; */
+}
+.offer{
+    color: white;
+    height: 150px;
+    width: 800px;
+    margin-left: 10%;
+    /* font-size:larger; */
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
+    /* backgr */
+    font-size: larger;
+    background-color:  rgba(0,0,0,0.4);
+}
+
+/* end main-2 css */
+
+
+/* start main-3 css */
+
+.main-3{
+    height: 250px;
+    width: 100%;
+    background-color: #e5e5e5;
+    /* align-items: center;
+    vertical-align: center; */
+    display: flex;
+    align-items: center;
+}
+.trending{
+    /* mar */
+    height: 190px;
+    width: 90%;
+    /* margin-top: 5%; */
+    margin:0px auto;
+    background-color: #a0a0a0;
+    color: #303030;
+    padding: 5px;
+    
+    
+
+}
+.itemscollection{
+    display: flex;
+}
+.item{
+    /* margin-top: 1%; */
+    background-color: #606060;
+    height: 150px;
+    /* width:  */
+    color: white;
+    padding: 1px;
+    margin-left: 1%;
+    
+}
+.item >img{
+    border: 1px solid black;
+    height: 120px;
+    width: 120px;
+}
+
+/* end main-3 css */
+
+/* main-4 css */
+
+.main-4{
+    width: 100%;
+    height: 780px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 1px; */
+    background-image: linear-gradient(to right,#434343,#010101);
+}
+/* to right,#010000,#e34b3b */
+
+.inside-div{
+    width: 85%;
+    /* margin-left: 7%; */
+    /* margin-top: 17%; */
+    /* padding: 70px; */
+    /* margin-right: 7%; */
+    height: 600px;
+    display: flex;
+    background-image: linear-gradient(to right,#010000,#e34b3b);
+    /* box-shadow: white; */
+
+}
+
+.main-4> .inside-div>.text{
+    height: 200px;
+    width: 45%;
+    color: white;
+    padding: 20px;
+    /* line-height: 100%; */
+}
+.main-4> .inside-div>.text>p{
+    margin-top: 30px;
+    font-weight: 100;
+    font-size:large;
+    /* font-style: bold;
+    font-weight: 200; */
+}
+.main-4> .inside-div>.img{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    /* vertical-align: middle; */
+    align-items:start;
+}
+.main-4> .inside-div>.img>img{
+    /* margin-top: 130px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    /* padding: 30px; */
+    /*box-shadow: 8px 8px 8px white; */
+    /* box-shadow: 0px 0px 100px rgba(255, 255, 255, 0.4); */
+    /* box-shadow: 0px 8px 8px 0px white; */
+    /* box-shadow: white; */
+    /* justify-content: center;
+    vertical-align: middle;
+    align-items: center; */
+    
+     position: relative;
+    /* right: 0%; */
+    top: 8%;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 8px 8px 8px white;
+    
+    
+}
+.img>img:hover {
+    /* opacity: 0.3; */
+    transform-origin: top right;
+    transform: scale(1.5);
+
+}
+
+/* end main-4 css */
